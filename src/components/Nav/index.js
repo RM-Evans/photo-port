@@ -4,8 +4,6 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 //using a "short-circuit expression" to map categories
 function Nav(props) {
 
-
-
     const {
         categories = [],
         setCurrentCategory,
