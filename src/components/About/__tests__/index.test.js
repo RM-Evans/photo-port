@@ -20,6 +20,6 @@ describe('About component', () => {
         const { asFragment } = render(<About />);
         //assert that snapshots match
         expect(asFragment()).toMatchSnapshot();
-    })
+    });
 });
 

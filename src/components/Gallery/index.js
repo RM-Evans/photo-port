@@ -18,3 +18,5 @@ function Gallery({ currentCategory }) {
 }
 
 export default Gallery;
+
+/* <PhotoList category={currentCategory.name} /> */
