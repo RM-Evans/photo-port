@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contact component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section>
+    <h1>
+      Contact me
+    </h1>
+    <form
+      id="contact-form"
+    >
+      // name input
+      <div>
+        <label
+          for="name"
+        >
+          Name:
+        </label>
+        <input
+          name="name"
+          type="text"
+          value=""
+        />
+      </div>
+      // email input
+      <div>
+        <label
+          for="email"
+        >
+          Email address:
+        </label>
+        <input
+          name="email"
+          type="email"
+          value=""
+        />
+      </div>
+      // message text area
+      <div>
+        <label
+          for="message"
+        >
+          Message:
+        </label>
+        <textarea
+          name="message"
+          rows="5"
+        />
+      </div>
+      <button
+        data-testid="button"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </section>
+</DocumentFragment>
+`;

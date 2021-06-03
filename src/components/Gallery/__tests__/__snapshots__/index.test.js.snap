@@ -18,22 +18,18 @@ exports[`matches snapshot 1`] = `
         <img
           alt="Cat green eyes"
           class="img-thumbnail mx-1"
-          src="0.jpg"
         />
         <img
           alt="Green parrot"
           class="img-thumbnail mx-1"
-          src="1.jpg"
         />
         <img
           alt="Yellow macaw"
           class="img-thumbnail mx-1"
-          src="2.jpg"
         />
         <img
           alt="Pug smile"
           class="img-thumbnail mx-1"
-          src="3.jpg"
         />
       </div>
     </div>

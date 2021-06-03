@@ -110,14 +110,17 @@ const PhotoList = ({ category }) => {
     return (
         <div>
             <div className="flex-row">
-                {currentPhotos.map((image, i) => (
-                    <img
-                        src={require(`../../assets/small/${category}/${i}.jpg`)}
+                {currentPhotos.map((image, i) => {
+                    let imgSrc = require(`../../assets/small/${category}/${i}.jpg`);
+                    //console.log(imgSrc.default);
+                    //fix with imgSrc -- grab from object module
+                    return <img
+                        src={imgSrc.default}
                         alt={image.name}
                         className="img-thumbnail mx-1"
                         key={image.name}
-                    />
-                ))}
+                    />;
+                })}
             </div>
         </div>
     );
