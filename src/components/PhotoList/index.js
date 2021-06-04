@@ -115,7 +115,7 @@ const PhotoList = ({ category }) => {
         // current photo
         setCurrentPhoto({ ...image, index: i });
         setIsModalOpen(!isModalOpen);
-        console.log('testestest');
+        
 
     };
 
