@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-function Modal(currentPhoto, { onClose }) {
-    const { currentPhoto: { name, category, description, index } } = currentPhoto;
+function Modal({ currentPhoto, onClose }) {
+    const { name, category, description, index } = currentPhoto;
 
     // console.log(currentPhoto);
     // console.log(name);
